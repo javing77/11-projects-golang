@@ -1,0 +1,1 @@
+docker run -d --name mysqldb -p 3306:3306 --env="MYSQL_ROOT_PASSWORD=Pruebas2022" -e  MYSQL_DATABASE=simplerest mysql:5.7
